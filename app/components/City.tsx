@@ -23,7 +23,7 @@ export function City({ data }: CityProps) {
     return (
         <Link
         to={`/weather/${encodeURIComponent(data.name)}?units=${units}`}
-        className="block border border-gray-200 bg-white p-6 rounded hover:border-gray-300 transition-colors"
+        className="block border border-gray-200 bg-white p-6 rounded hover:border-gray-400 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200"
         >
         <div className="flex items-start justify-between mb-4">
             <div>
